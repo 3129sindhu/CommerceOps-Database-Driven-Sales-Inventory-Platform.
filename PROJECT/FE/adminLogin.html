@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Admin Login</title>
+
+    <link rel="stylesheet" href="./style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Cabin:ital,wght@1,600&family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div class="loginbox">
+    <div class="center1">
+
+        <img src="img13.jpg" class="avatar" alt="Admin">
+
+        <div class="container1">
+
+            <h1 class="text-center">Admin Login</h1>
+
+            <form action="../BE/ADMIN/adminLogin.php" method="POST">
+
+                <div class="form-group2">
+                    <label>Username</label>
+                    <input type="text" name="username" class="form-control" required>
+                </div>
+
+                <br>
+
+                <div class="form-group2">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control" required>
+                </div>
+
+                <br><br>
+
+                <button type="submit" class="btn1">Login</button>
+                <button type="reset" class="btn1">Reset</button>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

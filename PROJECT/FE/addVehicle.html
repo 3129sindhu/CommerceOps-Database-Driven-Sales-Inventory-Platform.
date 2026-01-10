@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Add Vehicle</title>
+
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<img class="bg-vehicle-details" src="img9.jpg" alt="Vehicle">
+
+<div class="container2">
+    <br><br><br><br>
+
+    <h1 class="text-center">Enter Vehicle Details</h1>
+
+    <br><br><br>
+
+    <form action="../BE/VEHICLES/addVehicle.php" method="POST">
+
+        <div class="form-group">
+            <label>Vehicle Registration No</label>
+            <input type="text" name="vehicle_no" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label>Vehicle Name</label>
+            <input type="text" name="vehicle_name" class="form-control" required>
+        </div>
+
+        <button type="submit" class="btn2 btn btn-primary">
+            Save
+        </button>
+
+        <button type="reset" class="btn2 btn btn-secondary">
+            Reset
+        </button>
+
+    </form>
+</div>
+
+</body>
+</html>

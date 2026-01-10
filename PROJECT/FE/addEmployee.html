@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Add Employee</title>
+
+    <link rel="stylesheet" href="./style1.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="bg-image3">
+    <br>
+    <h2 class="text-center">Enter Employee Detailssss</h2>
+    <br>
+
+    <form action="../BE/EMPLOYEES/addEmployee.php" method="POST">
+
+        <div class="white-container3">
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="employee_name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label>DOB</label>
+                <input type="date" name="birthday" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label>Joining Date</label>
+                <input type="date" name="join_date" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label>Address</label>
+                <textarea name="address" class="form-control" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="male" required> Male<br>
+                <input type="radio" name="gender" value="female" required> Female<br>
+                <input type="radio" name="gender" value="other" required> Other
+            </div>
+
+            <div class="form-group">
+                <label>Contact</label>
+                <input type="tel" name="contact" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label>Salary</label>
+                <input type="number" name="salary" class="form-control" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
