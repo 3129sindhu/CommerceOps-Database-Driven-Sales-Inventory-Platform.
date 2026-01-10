@@ -1,3 +1,17 @@
+# macOS system files
 .DS_Store
-*/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Environment files (future-safe)
+.env
 
