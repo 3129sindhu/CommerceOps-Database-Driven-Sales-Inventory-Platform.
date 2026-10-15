@@ -1,4 +1,4 @@
-# Sales & Delivery Management System
+# CommerceOps: Database-Driven Sales & Inventory Platform.
 
 ## Overview
 
